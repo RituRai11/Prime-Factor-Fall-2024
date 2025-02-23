@@ -27,3 +27,7 @@ def test_prime_factors_of_4():
 def test_prime_factors_of_6():
     """Test that when input is 6, it returns [2, 3]"""
     assert generate_prime_factors(6) == [2, 3]
+
+def test_prime_factors_of_8():
+    """Test that when input is 8, it returns [2, 2, 2]"""
+    assert generate_prime_factors(8) == [2, 2, 2]
